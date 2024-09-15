@@ -1,0 +1,23 @@
+ if opcion.upper() == "A":
+        opcion = str(input("¡Aventura! Sales de la gasolinera y, tras el esfuerzo, ha valido la pena."
+              "¡Resto de comida!\nAl parecer, los que estuvieron allí no podían llevar tantas raciones.\n"
+              "Tú sabes que no puedes quedarte allí y bajas a una carretera cercana."
+              "\nSin embargo, alcanzas a ver unas personas raras con un atuendo extraño que se acercan.\n"
+              "¿Qué decides hacer?\n"
+              "A. Esperar\n"
+              "B. Bajar al alcantarillado.\n"))
+        if opcion.upper() == "A":
+            print("¡¡haz muerto a manos de saqueadores de comida!!")
+        elif opcion.upper() == "B":
+            opcion = str(input("Te has adentrado en las alcantarillas y encuentras una espada,"
+                               " pero no puedes llevar la escopeta y la espada a la vez.\n"
+                               "¿Dejarás la escopeta o la espada?\n"
+                               "A. Quedarte la escopeta\n"
+                               "B. Quedarte la espada\n"
+                               ))
+            if opcion.upper() == "A" and escopeta:
+                print("Seguiste por el alcantarillado y encontraste una cucaracha gigante mutada"
+                                   " por la explosión.\nIntentas defenderte,"
+                                   " pero sin balas no puedes hacer nada. ")
+            elif opcion.upper() == "B":
+                print("")
